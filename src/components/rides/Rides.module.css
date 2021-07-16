@@ -1,0 +1,135 @@
+.rides__container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rides__header >h1{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.button__container{
+    width: 260px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    position: relative;
+}
+
+.toggle__button{
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    position: relative;
+    font-size: large;
+}
+
+.button{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 130px;
+    height: 100%;
+    border-radius: 8px;
+    background: rgba(20,79,86);
+    transition: 0.5s;
+}
+
+.button__left{
+    left: 130px;
+}
+
+.ride__types{
+    width: 80vw;
+    height: calc(60vh - 50px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 0.5s;
+}
+
+.rides__list{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.ride__list__item{
+    font-size: larger;
+    cursor: pointer;
+}
+
+.rides__image{
+    height: 70%;
+    width: 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.image{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.rides__title{
+    position: absolute;
+    bottom: 50%;
+    left: 38%;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.rides__explore{
+    position: absolute;
+    bottom: 30%;
+    left: 45%;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    border: none ;
+    outline: none;
+    background: rgba(20,79,86);
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+    border-radius: 6px;
+}
+
+.rides__explore:hover{
+    background: rgba(20,79,86,0.8);
+}
+
+@media(max-width:600px){
+    .rides__header > p{
+        line-break: auto;
+        margin-left: 5%;
+    }
+    .ride__types{
+        flex-direction: column;
+    }
+    .rides__list{
+        width: 80%;
+    }
+    .rides__image{
+        width: 80%;
+        height: 90%;
+    }
+}

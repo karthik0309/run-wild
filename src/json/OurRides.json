@@ -1,0 +1,38 @@
+[
+    {
+        "title":"Rhinocerus drive",
+        "link":"https://res.cloudinary.com/dbvb5yvcf/image/upload/v1626420053/run%20wild/our1_i8gu63.jpg",
+        "type":"safari"
+    },
+    {
+        "title":"Griraffe drive",
+        "link":"https://res.cloudinary.com/dbvb5yvcf/image/upload/v1626420055/run%20wild/our2_fpow4r.jpg",
+        "type":"safari"
+    },
+    {
+        "title":"Elephant drive",
+        "link":"https://res.cloudinary.com/dbvb5yvcf/image/upload/v1626420052/run%20wild/our3_m30my9.jpg",
+        "type":"safari"
+    },
+    {
+        "title":"Zebra drive thru",
+        "link":"https://res.cloudinary.com/dbvb5yvcf/image/upload/v1626420393/run%20wild/our4-min_fwyxt9.jpg",
+        "type":"safari"
+    },
+    {
+        "title":"Deep Sea diving",
+        "link":"https://res.cloudinary.com/dbvb5yvcf/image/upload/v1626420394/run%20wild/our5-min_jn1y8j.jpg",
+        "type":"sea-diving"
+    },
+    {
+        "title":"Deep Sea diving1",
+        "link":"https://res.cloudinary.com/dbvb5yvcf/image/upload/v1626420393/run%20wild/our6-min_xzkixq.jpg",
+        "type":"sea-diving"
+    },
+    {
+        "title":" Deep Sea diving2",
+        "link":"https://res.cloudinary.com/dbvb5yvcf/image/upload/v1626420393/run%20wild/our6-min_xzkixq.jpg",
+        "type":"sea-diving"
+    }
+
+]

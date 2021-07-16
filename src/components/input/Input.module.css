@@ -1,0 +1,52 @@
+.input__container{
+    width: 25vw;
+    height: 40px;
+    min-width: 250px;
+    position: relative;
+}
+.input{
+    height: 80%;
+    width: 80%;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    border-bottom: 1px solid gray;
+    background-color: transparent;
+    color: black;
+}
+
+.label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    font-size: 20px;
+    color: darkgray;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.line{
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    bottom: 8px;
+}
+.line::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: rgba(20,79,86);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.input:focus~.label,.input:valid~.label{
+    transform: translateY(-25px);
+    color: rgba(20,79,86);
+    font-size: 18px;
+}
+.input:focus~.line:before,.input:valid~.line:before{
+    transform: scaleX(1);
+}
+
